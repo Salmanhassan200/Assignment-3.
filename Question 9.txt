@@ -1,0 +1,47 @@
+ void main (){
+    //  Question # 9
+
+// calsum = calculater sum
+// calsub = calculater substraction
+// calmulti = claculater multiplication
+// caldiv = calculater division
+    
+    
+ var a = 5;
+  var b = 0;
+calsum (a, b);
+  calsub (a, b);
+  calmulti (a, b);
+  caldiv (a, b);
+  
+  
+}
+calsum (int x ,int y ){
+ var sum = 4 + 5 ;
+  print ("the sum is = ${sum}");
+}
+  
+  
+ calsub (int x ,int y ){
+ var sub = 4-2;
+   if (x > y) {
+     var sub = x- y;
+   } else {
+     var sub = y - x;
+   }
+   
+  print ("the sububraction is = ${sub}");
+ }
+
+calmulti (int x ,int y ){
+ var multi = 2 * 2;
+  print ("the multiplication is = ${multi}");
+}
+
+ 
+caldiv (int x ,int y ){
+ if (y >= 0) {
+  var div = 2 / 4;
+   print("the division is = ${div}");}
+                                                                                                      
+}
